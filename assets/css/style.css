@@ -7,6 +7,11 @@
 * {
   box-sizing: border-box;
 }
+body {
+  border-color: blue;
+  border-width: 0.25em;
+  border-style: double;
+}
 
 a {
   color: inherit;
@@ -28,6 +33,9 @@ img {
   padding-top: calc(1.5 * var(--size-avatar));
   background-color: var(--bg-color-card);
   text-align: center;
+  border-color: #106674;
+  border-width: 0.1em;
+  border-style: solid;
 }
 /* section{
     margin: 10%;
@@ -60,7 +68,7 @@ img {
   font-size: 22px;
 }
 
-.border {
+.line {
   border: 1px solid rgba(0, 0, 0, 0.127);
   width: 80%;
 
